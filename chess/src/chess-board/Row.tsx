@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Cell from './Cell';
+import Margin from './Margin';
 
 interface RowProps {
     rowIdx: number;
@@ -12,11 +13,11 @@ function Row(props: RowProps) {
 
     return (
         <div className = "row">
-            <div className = "div-md-2">L-Margin</div>
+            <Margin/>
             {
                 cellRows.map((item) => <Cell rowIdx = { rowIdx } cellIdx = { item }/>)
             }
-            <div className = "div-md-2">R-Margin</div>  
+            <Margin/>
         </div>
     )
 }

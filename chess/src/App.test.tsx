@@ -1,12 +1,15 @@
 import React from 'react';
-import { render } from '@testing-library/react';
+import { configure, shallow } from 'enzyme';
+import Adapter from 'enzyme-adapter-react-16';
 
 import App from './App';
+import Board from './chess-board/Board';
 
-test('contains component with board', () => {
-  // TODO - configure enzyme here
-  // const { getByText } = render(<App />);
-  // const linkElement = getByText(/Our board goes here!/i);
-  // expect(linkElement).toBeInTheDocument();
-  //const wrapper = shallow(<App/>);
+configure({ adapter: new Adapter() });
+
+describe('<App/>', () =>{
+  it('should render the Board component', () => {
+    const wrapper = shallow(<App />);
+    expect(wrapper.find(Board)).toHaveLength(1);
+  });
 });

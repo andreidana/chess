@@ -1,0 +1,8 @@
+.boardSize {
+    height: 800px;
+    width: auto;
+}
+
+.boardColor {
+    background-color: cyan;
+}

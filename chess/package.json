@@ -12,9 +12,12 @@
     "@types/react-dom": "^16.9.0",
     "bootstrap": "^4.4.1",
     "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "jest": "^24.9.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
+    "react-test-renderer": "^16.13.1",
     "typescript": "~3.7.2"
   },
   "scripts": {
