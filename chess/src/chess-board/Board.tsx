@@ -13,7 +13,7 @@ function Board() {
             <PlayerSide/>
             <div className = "row mt-2">
             {
-                rows.map((row) => <Row rowIdx = { row }/>)
+                rows.map((row) => <Row key = { row } rowIdx = { row }/>)
             }
             </div>
             <PlayerSide/>

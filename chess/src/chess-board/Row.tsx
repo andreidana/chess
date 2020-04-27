@@ -3,7 +3,7 @@ import React from 'react';
 import Cell from './Cell';
 import Margin from './Margin';
 
-interface RowProps {
+export interface RowProps {
     rowIdx: number;
 }
 
@@ -15,7 +15,7 @@ function Row(props: RowProps) {
         <div className = "row">
             <Margin/>
             {
-                cellRows.map((item) => <Cell rowIdx = { rowIdx } cellIdx = { item }/>)
+                cellRows.map((item) => <Cell key = { item } rowIdx = { rowIdx } cellIdx = { item }/>)
             }
             <Margin/>
         </div>

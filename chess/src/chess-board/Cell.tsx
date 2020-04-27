@@ -1,6 +1,6 @@
 import React from 'react';
 
-interface CellProps {
+export interface CellProps {
     rowIdx: number;
     cellIdx: number;
 }
