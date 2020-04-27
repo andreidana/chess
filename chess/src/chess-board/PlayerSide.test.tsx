@@ -6,7 +6,7 @@ import PlayerSide from './PlayerSide';
 
 configure({ adapter: new Adapter() });
 
-describe('<PlayerSide/>', () =>{
+describe('<PlayerSide />', () =>{
   let wrapper: ShallowWrapper;
 
   beforeEach(() => {

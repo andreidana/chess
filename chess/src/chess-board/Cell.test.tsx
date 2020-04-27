@@ -6,7 +6,7 @@ import Cell, { CellProps } from './Cell';
 
 configure({ adapter: new Adapter() });
 
-describe('<Cell/>', () =>{
+describe('<Cell />', () =>{
   let wrapper: ShallowWrapper;
   const props: CellProps = {
       rowIdx: 1,

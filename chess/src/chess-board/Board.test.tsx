@@ -8,7 +8,7 @@ import Row from './Row';
 
 configure({ adapter: new Adapter() });
 
-describe('<Board/>', () =>{
+describe('<Board />', () =>{
   let wrapper: ShallowWrapper;
   
   beforeEach(() => {

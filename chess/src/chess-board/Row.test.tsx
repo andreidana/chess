@@ -8,7 +8,7 @@ import Cell from './Cell';
 
 configure({ adapter: new Adapter() });
 
-describe('<Row/>', () =>{
+describe('<Row />', () =>{
   let wrapper: ShallowWrapper;
   const props: RowProps = {rowIdx: 2};
 
