@@ -1,0 +1,8 @@
+.playerSideSize {
+    height: 80px;
+    width: 100%;
+}
+
+.playerSideColor {
+    background-color: magenta;
+}

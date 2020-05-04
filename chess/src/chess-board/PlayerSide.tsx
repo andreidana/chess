@@ -1,8 +1,10 @@
 import React from 'react';
 
+import './PlayerSide.css';
+
 function PlayerSide() {
     return (
-        <div className = "row">Player</div>
+        <div className = "row playerSideSize playerSideColor">Player</div>
     )
 }
 

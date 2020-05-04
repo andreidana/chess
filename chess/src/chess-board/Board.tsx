@@ -11,7 +11,7 @@ function Board() {
     return (
         <div className = "boardSize boardColor">
             <PlayerSide/>
-            <div className = "row mt-2">
+            <div className = "row">
             {
                 rows.map((row) => <Row key = { row } rowIdx = { row }/>)
             }

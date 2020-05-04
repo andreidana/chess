@@ -1,0 +1,12 @@
+.cellSize {
+    height: 80px;
+    width: 80px;
+}
+
+.cellWhiteColor {
+    background-color: white;
+}
+
+.cellBlackColor {
+    background-color: black;
+}
