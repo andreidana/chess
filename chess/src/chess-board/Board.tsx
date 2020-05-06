@@ -9,14 +9,18 @@ function Board() {
     const rows = [1, 2, 3, 4, 5, 6, 7, 8];
 
     return (
-        <div className = "boardSize boardColor">
-            <PlayerSide/>
-            <div className = "row">
-            {
-                rows.map((row) => <Row key = { row } rowIdx = { row }/>)
-            }
+        <div className = "boardSize boardColor container">
+            <div className="row">
+                <PlayerSide/>
             </div>
-            <PlayerSide/>
+            <div className="container">
+                {
+                    rows.map((row) => <Row key = { row } rowIdx = { row }/>)
+                }
+            </div>
+            <div className="row">
+                <PlayerSide/>
+            </div>
         </div>
     )
 }

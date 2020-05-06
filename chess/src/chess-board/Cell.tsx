@@ -11,7 +11,7 @@ function Cell(props: CellProps) {
     const rowIdx = props.rowIdx;
     const cellIdx = props.cellIdx;
     const cellColor = (( rowIdx % 2 === 0 && cellIdx % 2 === 0 ) || ( rowIdx % 2 !== 0 && cellIdx % 2 !== 0)) ? "cellBlackColor" : "cellWhiteColor";
-    const cellStyle = "col-md-1 cellSize " + cellColor;
+    const cellStyle = "cellSize " + cellColor;
 
     return (
         <div className = { cellStyle }>{ rowIdx } - { cellIdx }</div>

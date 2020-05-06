@@ -4,7 +4,7 @@ import './Margin.css';
 
 function Margin() {
     return (
-        <div className = "div-md-2 marginSize marginColor">Margin</div>
+        <div className = "marginSize marginColor">Margin</div>
     )
 }
 

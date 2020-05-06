@@ -4,7 +4,7 @@ import './PlayerSide.css';
 
 function PlayerSide() {
     return (
-        <div className = "row playerSideSize playerSideColor">Player</div>
+        <div className = "playerSideSize playerSideColor">Player</div>
     )
 }
 

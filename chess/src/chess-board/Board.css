@@ -1,8 +1,8 @@
 .boardSize {
-    height: 800px;
-    width: auto;
+    height: 810px;
+    width: 810px;
 }
 
 .boardColor {
-    background-color: white;
+    background-color: yellow;
 }
